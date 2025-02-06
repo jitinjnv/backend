@@ -2,7 +2,6 @@
   "name": "backend-jit",
   "version": "1.0.0",
   "description": "a backend ",
-  
   "keywords": [
     "javascript",
     "backend"
@@ -14,5 +13,10 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose-aggregate-paginate-v2": "^1.1.3"
   }
 }
