@@ -1,4 +1,0 @@
-const asynHandler=()=>{
-
-}
-export {asynHandler}
